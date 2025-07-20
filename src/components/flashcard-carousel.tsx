@@ -225,3 +225,4 @@ export default function FlashcardCarousel({ cards, onEdit, onDelete, onAddCard, 
         </div>
     </div>
   );
+}

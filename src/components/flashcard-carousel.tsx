@@ -124,7 +124,7 @@ export default function FlashcardCarousel({ cards, onEdit, onDelete, onAddCard, 
         return true; // Allow activation otherwise
       },
     })
-    };
+    );
 
   const handleDragStart = (event: DragStartEvent) => {
     if (!editMode) return;
